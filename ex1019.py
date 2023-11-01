@@ -8,7 +8,7 @@ c=valor[2]
 
 delt=(pow(b,2))-(4*a*c)
 if delt>0:
-    #tentativa e exceção para não gera erro no codigo
+    
     try:
         x1=((-b)+(sqrt(delt)))/(2*a)
         x2=((-b)-(sqrt(delt)))/(2*a)
